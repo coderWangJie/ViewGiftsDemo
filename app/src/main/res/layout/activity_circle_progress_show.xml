@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.viewgiftlibs.circleProgress.CircleProgress
+        android:id="@+id/pro"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="50dp"
+        app:reachColor="#e760b1"
+        app:textColor="#6376d9"
+        app:trackColor="#ccbfbf"
+        app:textSize="22sp"
+        app:startFrom="right"
+        app:progress="60"
+        app:circleWidth="5dp"/>
+
+</LinearLayout>
+

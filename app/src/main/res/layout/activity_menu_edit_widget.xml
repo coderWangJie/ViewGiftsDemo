@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wangj="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp">
+
+    <com.viewgiftlibs.editwidget.EditTextWithClear
+        android:id="@+id/et_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ff8aff"
+        wangj:hint="测试hint是否设置正确"
+        wangj:maxLength="10"
+        wangj:text="测试文字颜色和字号大小"
+        wangj:textColor="#273590" />
+
+</LinearLayout>

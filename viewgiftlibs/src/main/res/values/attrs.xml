@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textSize" format="dimension|reference" />
+    <attr name="textColor" format="color|reference" />
+
+    <!-- 圆形进度条 -->
+    <declare-styleable name="CircleProgress">
+        <attr name="circleWidth" format="dimension" />
+        <attr name="trackColor" format="color" />
+        <attr name="reachColor" format="color" />
+        <attr name="maxProgress" format="integer" />
+        <attr name="progress" format="integer" />
+        <attr name="textColor" />
+        <attr name="textSize" />
+        <attr name="startFrom" format="enum">
+            <enum name="top" value="1" />
+            <enum name="right" value="2" />
+            <enum name="bottom" value="3" />
+            <enum name="left" value="4" />
+        </attr>
+    </declare-styleable>
+
+    <!-- 支付成功与否指示器 -->
+    <declare-styleable name="PayLoading">
+        <attr name="loadingColor" format="color" />
+        <attr name="successColor" format="color" />
+        <attr name="failColor" format="color" />
+        <attr name="padding" format="dimension" />
+    </declare-styleable>
+
+    <!-- 待删除按钮的输入框 -->
+    <declare-styleable name="EditTextCanClean">    <!-- *记住* declare-styleable的name就是自定义控件的名字 -->
+        <attr name="cleanIconDrawable" format="reference" />
+        <attr name="hint" format="reference|string" />
+        <attr name="text" format="reference|string" />
+        <attr name="textSize" />
+        <attr name="textColor" />
+        <attr name="maxLength" format="integer" />
+    </declare-styleable>
+</resources>

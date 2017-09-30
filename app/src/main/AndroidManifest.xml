@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.coderwangj.viewgiftsdemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".IndexActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".progress.MenuProgressActivity" />
+        <activity android:name=".progress.CircleProgressShow" />
+        <activity android:name=".progress.PayLoadingShow" />
+        <activity android:name=".touchview.MenuTouchActivity" />
+        <activity android:name=".touchview.TouchViewActivity" />
+        <activity android:name=".toast.MenuToastActivity" />
+        <activity android:name=".clipboard.ClipBoardFrom" />
+        <activity android:name=".toast.SingleToastShow" />
+        <activity android:name=".editwidget.MenuEditWidgetActivity" />
+        <activity android:name=".dialog.MenuDialogActivity"></activity>
+    </application>
+
+</manifest>
